@@ -1,0 +1,151 @@
+
+Object Oriented Programming In Java Questions And Answers
+1. What is OOPs? 
+OOPs stands for Object-Oriented Programming system. It is a 
+programming paradigm in which software design involves 
+around data, or objects, rather than functions and logic. In OOPs, 
+objects are data fields that have unique attributes and properties. 
+OOPs focuses on the objects that developers want to manipulate 
+rather than the logic required to manipulate them. That's why large, 
+complex and actively updated or maintained program is well suited 
+for OOPs paradigm of programming. 
+
+2. What are the basic features of OOPs? 
+Following are the basic features of OOPs - 
+• Abstraction 
+• Encapsulation 
+• Inheritance 
+• Polymorphism 
+
+3. Why use OOPs? 
+OOPs provide the following advantages, that's why it is used. 
+• Code maintenance 
+• Reusability 
+• Security 
+• Better productivity 
+• Polymorphism flexibility 
+• Problem solving 
+• Easy troubleshooting 
+• Design benefits 
+• Data redundancy
+
+4.What are the difference between OOP and SOP? 
+OOP SOP
+1. It stands for Object-Oriented 
+Programming.
+It stands for Structural 
+Oriented Programming.
+2. It is based on objects. It is based on functions.
+3. It follows Bottom-up 
+programming approach.
+It follows Top-down 
+programming approach.
+4. It is based on real world. It is based on unreal world.
+5. It provides data hiding so it 
+is very secure.
+It doesn't provide data hiding 
+so it is less secure.
+6. It provides reusability 
+feature.
+It doesn't provide reusability 
+feature.
+7. Eg. C++, Java, python etc. Eg. C, Pascal, Basic etc.
+
+5. What is a class? 
+A class is a collection of objects. Classes don’t consume 
+any space in the memory. 
+It is a user defined data type that act as a template for 
+creating objects of the identical type. 
+
+Once a class has been defined. A large number of objects 
+can be created using the same class. Therefore, Class is 
+considered as the blueprint for the object. 
+For eg. Fruit is a class and its objects are mango, apple 
+etc. Furniture is a class and its objects are table, chair, 
+desk etc. 
+Syntax :
+class classname [extends inheritance] 
+{ 
+ [field declararion] 
+ [method declaration] 
+} 
+6.What is an object? 
+An object is a real world entity which have properties and 
+functionalities. 
+Object is also called an instance of class. Objects take 
+some space in memory. 
+For eg. car, table, chair etc. are the example of objects. 
+Syntax of creation of object : 
+
+classname obj_reference = new classname(); 
+ OR 
+Step I - classname obj_reference; // object declararion 
+Step II - obj_reference = new classname(); //object 
+initialization 
+
+7. What is the difference between a class and an object? 
+Class Object
+1. It is a collection of objects. It is an instance of a class.
+2. It doesn't take up space in 
+memory.
+It takes space in memory.
+3. Class does not exist 
+physically
+Object exist physically.
+4. Classes are declared just 
+once
+Objects can be declared as and 
+when required
+5. Eg. - Fruit, Vehicle, Laptop Eg. - Mango, Car, HP Laptop 
+
+8.What is the difference between a class and a structure? 
+Class Structure
+1. Class is a collection of 
+objects.
+Structure is a collection of 
+variables of different data 
+types under a single unit
+2. Class is used to combine 
+data and methods together.
+Structure is used to grouping 
+data.
+3. Class's objects are created on 
+the heap memory.
+Structure's objects are created 
+on the stack memory.
+4. A class can inherit another 
+class.
+A structure can't inherit 
+another structure.
+5. A class has all members 
+private by default
+A structure has all members 
+public by default
+6. Classes are ideal for larger or 
+complex objects
+Structures are ideal for small 
+and isolated model objects
+
+9. What is encapsulation? 
+Encapsulation is an striking feature of OOPs that provides 
+data security. It is a mechanism of binding member data
+and member function together into a single place i.e. class. 
+The main advantage of encapsulation is that data is hidden 
+and protected from access by outside non-member 
+methods of a class. In other words, only member 
+functions defined in a class will have access to the data.
+In encapsulation, data(variables) are declared as private 
+and methods are declared as public. 
+
+10. What are access specifiers? 
+Access specifiers are the most important part of object 
+oriented programming paradigm. It allows us to restrict
+the scope or visibility of a package, class, constructor, 
+methods, variables, or other data members. 
+By using access specifiers, we define how the members 
+(attributes and methods) of a class can be accessed. 
+There are three types of most common access specifiers, 
+which are following. 
+• Private 
+• Public 
+• Protected 
