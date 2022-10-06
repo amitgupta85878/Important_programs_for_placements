@@ -8,7 +8,7 @@ This All programs For beginner
 Enjoy All Hacktoberfest has a simple and plain moto.
 
 Beginner-Hacktoberfest
-Need Your first pr for hacktoberfest 2k21 ? come on in
+
 
 ❓ What's Hacktoberfest 2022?
 Hacktoberfest is the easiest way to get into open source! Hacktoberfest is a month long festival of open source code presented by Digital Ocean and DEV this year in 2022.
