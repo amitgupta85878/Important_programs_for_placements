@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Images</title>
+</head>
+<body>
+    <a href="https://google.com"target="_blank">Go to google </a> <br>
+    <hr>
+    <a href="https://facebook.com"target="_blank">Go to facebook </a> <br>
+    <hr>
+    <a href="https://twitter.com"target="_blank">Go to twitter </a> <br>
+    <br><hr><a href="/Tut4.html"target="_blank">Tut 4</a>
+
+    <!-- image is not present hence alt text is shown -->
+    <img src="harry.jpg" alt="Error loading image">
+    <img src="https://images.unsplash.com/photo-1560707303-4e980ce876ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80" alt="nature image" width = "150" height="250">
+    
+</body>
+</html>
