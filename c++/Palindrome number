@@ -5,7 +5,7 @@ int main()
 {
 int num,rev=0;
 cout<<"Enter the number "; 
-cin>>num; // taking the input 
+cin>>num; 
 int temp=n;
 while(num>0)
 {
