@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+box-sizing: border-box;
+        }
+
+        .container{
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            background-color: rgb(185, 179, 104);
+
+        }
+        .item{
+            border: 3px solid grey;
+            margin:  12px 3px;
+            padding: 12px 3px;
+            background: rgb(248, 238,238)
+        }
+        #fruits{
+           float: left;
+           width: 48%;
+        }
+        #computer{
+           float: left;
+           width: 48%;
+
+        }
+        #stationary{
+           /* float: left; */
+           clear: both;
+           width: 100%;
+        }
+        p,h3{
+            text-align: left;
+            text-align: center;
+            text-align: justify;
+        }
+        h1{
+            margin: auto;
+            width: 455px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class = " container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits"  class="item">
+        <h3>Fruits</h3>
+        <p id="fruitpara" class="para">Lorem ipsum  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum quas pariatur, blanditiis voluptatum eos ut cupiditate ratione molestias voluptas molestiae adipisci asperiores dignissimos impedit perferendis sint. Consectetur vitae dicta eius tempora consequatur excepturi nam!dolor sit amet consectetur, adipisicing elit. Voluptatem velit exercitationem, fugit tempora ipsum perspiciatis harum quos ut nobis voluptatibus asperiores.</p>
+    </div>
+   
+        <div id="computer"  class="item"> 
+        <h3>computer</h3>
+        <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium, magnam error nobis corrupti a iure laboriosam praesentium illum provident eveniet vitae. Alias asperiores quibusdam illo ducimus labore aperiam dolor ut, corrupti tempora officia?
+     sint itaque obcaecati illo repellendus facere ab error quidem iste laborum.
+    </div>
+    
+        <div id="stationary"  class="item"> 
+        <h3>stationary</h3>
+        <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo distinctio minima totam saepe tenetur? Corporis ipsam quam numquam molestias. Beatae quos ea hic rerum, alias ut quae officia nam maiores distinctio! Odit, dolor nesciunt.</p>
+    </div>
+        <div id="glasses"  class="item"> 
+        <h3>glases</h3>
+        <p id="glasespara" class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo distinctio minima totam saepe tenetur? Corporis ipsam quam numquam molestias. Beatae quos ea hic rerum, alias ut quae officia nam maiores distinctio! Odit, dolor nesciunt.</p>
+    </div>
+    </div>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedo selectors & more disigning </title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: rgb(233,211,222);
+            padding: 34px ;
+            margin: 34px auto;
+            width: 666px;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+            background-color: antiquewhite;
+        }
+        a:visited{
+           background-color: yellow;
+        }
+        a:active{
+            background-color: pink;
+        }
+        .btn{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: crimson;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non voluptatem nobis magni aliquid ducimus atque saepe ratione, dicta corporis in totam voluptate asperiores praesentium architecto adipisci aperiam officia! Saepe quisquam molestias maxime eum praesentium.</p>
+        <a href="https://yahoo.com" class="btn"> Read more</a>
+        <button class="btn">contact us</button>
+    </div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(164, 212, 136);
+            background-image: url('https://imgk.timesnownews.com/story/main_indian_flag_iStock-1194408359.jpg?tr=w-400,h-300,fo-auto');
+            background-repeat: repeat-y;
+            margin-left: 400px;
+        }
+
+
+
+        .container{
+            background-color: rgb(orange, white, green);
+            border: 3px solid rgb(94, 147, 204);
+            /* padding: 59px; */
+            /* padding-top: 58px;
+            padding-right: 55px;
+            padding-bottom: 45px;
+            padding-left: 44px; */
+            /* padding: 44px 46px 56px 57px; */
+
+            padding: 34px 19px;
+            /* padding: y(top/bottom) x(left/right) */
+
+            /* padding/margin :top right botom left */
+            /* margin: 34px; */
+            /* margin: 44px 55px 36px 54px; */
+
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 533px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class = "container">
+    <h3> This is my heading</h3>
+    <p id="first">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae eveniet totam molestias nisi, vel et voluptas optio. Sint, eaque sapiente.</p>
+</div>
+
+    <div class = "container">
+    <h3> This is my heading</h3>
+    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eos commodi porro doloremque ab nam.</p>
+</div>
+    <div class = "container">
+    <h3> This is my heading</h3>
+    <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id culpa consequatur molestiae dolor cumque iste?</p>
+</div>
+</body>
+</html>
