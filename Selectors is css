@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More about selectors</title>
+    <style>
+        h1{
+            background-color: lightblue;
+            color: rgb(152, 122, 122);
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* div  p{
+            color:black;
+            background-color: bisque;
+            font-weight: bold;
+        } */
+
+        /* div > p{
+            color:black;
+            background-color: bisque;
+            font-weight: bold;
+        } */
+
+        /* div + P{
+            color: white;
+            background-color: red;
+        } */
+    </style>
+</head>
+<body>
+    <h1>THIS IS MORE ON SELECTORS</h1>
+    <div class="container">
+        <li>
+            <ul>
+                <p>THis is innermost paragraph</p>
+            </ul>
+        </li>
+        <div class="row">
+            <p>This is paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <p>this is outermost paragraph</p>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and after Pseudo Selectors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            background: url('https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center/cover;
+
+        }
+        header::before{
+            background: url('https://images.unsplash.com/photo-1478145046317-39f10e56b5e9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80') no-repeat center center/cover;
+            
+            content: "";
+
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.8;
+            
+        }
+        .navigation{
+            display: flex;
+            flex-direction: row;    
+            font-family: 'Open Sans', sans-serif;        
+        }
+        li{
+            list-style: none;
+            padding: 20px 23px;
+        }
+        section{
+            height: 300px;
+            font-family: 'Open Sans', sans-serif; 
+            margin: 100px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        /* section::before{
+            content: "This is a content";
+        } */
+        h1{
+            font-size: 4rem;
+        }
+        p{
+            text-align: center;
+        }
+
+    </style>
+
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <ul class="navigation">
+                    
+                    <li class="item">Home</li>
+                    <li class="item">About</li>
+                    <li class="item">Services</li>
+                    <li class="item">Contact Us</li>
+                </ul>
+            </nav>
+           
+        </header>
+        <section>
+            <h1>WELCOME TO FOOD WORLD</h1>
+            <p>Food for us comes from our relatives, whether they have wings or fins or roots. That is how we consider food. Food has a culture. It has a history. It has a story. It has relationships. </p>
+        </section>
+        <hr>
+    </body>
+    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: burlywood;
+            /* box-shadow: offset-x offset-y blur radius spread radius; */
+            box-shadow: 7px 9px 12px 15px rgb(37, 10, 10 , 3.5);
+            /* box-shadow: -3px -5px -8px rgb(37, 10, 10); */
+
+            box-shadow: inset 3px 5px green;
+            /* andar ki taraf shadow ke liye */
+
+            box-shadow: 4px 5px red , -5px -6px green;
+            /* upar niche dono shadow ke liye */
+        }
+        .card h2{
+            text-shadow: 2px 3px 6PX rgb(229, 231, 240);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="car-1">
+            <h2>BOX</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod eum dolorum dolor error aut, debitis aperiam nisi qui assumenda inventore aliquid corporis iure.</p>
+        </div>
+        <div class="card" id="car-2">
+            <h2>BOX</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aperiam hic cum doloremque? Aliquid repellat aut fugiat repudiandae pariatur itaque minima deserunt similique!</p>
+        </div>
+        <div class="card" id="car-3">
+             <h2>BOX</h2>  
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum eveniet ducimus quis qui, placeat eligendi, adipisci nemo quisquam laboriosam debitis quidem accusamus autem.</p>  
+        </div>
+    </div>
+</body>
+</html>
