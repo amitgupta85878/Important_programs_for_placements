@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transition</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        #box{
+            color: white;
+            display: flex;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            justify-content: center;
+            align-items: center;
+            /* transition-property: background-color;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 2s; */
+            transition: all 1s ease-in-out .3s;
+
+
+        }
+
+        #box:hover{
+            background-color: pink;
+            width: 300px;
+            height: 400px;
+            border-radius: 100px;
+            font-size: 40px;
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h3>This is CSS Transition Tutorial</h3>
+    <div class="container">
+        <div id="box">
+            This is my box
+        </div>
+    </div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(195, 127, 45);
+            height: 100vh;
+        }
+        .box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(58, 5, 5);
+            border: 2px solid black;
+            border-radius: 5px;
+            height: 400px;
+            width: 400px;
+            transition: all 0.5s ease-in-out ;
+            font-size: 50px;
+        }
+        .box:hover{
+            /* transform: rotate(360deg); */
+            /* transform: skew(45deg); */
+            /* transform: translatex(100px);
+            transform: translateY(100px); */
+            transform: translate(100px,100px);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is a box</div>
+    </div>
+    
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key frames and Animations</title>
+    <style>
+        .container{
+            background-color: red;
+        }
+        .box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: black;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            animation-name: shivam1;
+            animation-duration: 8s;
+            /* animation-iteration-count: infinite; */
+            /* animation-fill-mode: forwards; */
+            /* animation-fill-mode: alternate;
+            animation-timing-function: ease-in-out; */
+            /* animation-delay: 3s; */
+            /* animation-direction: alternate-reverse; */
+
+        }
+
+        @keyframes shivam1 {
+            0%{
+                top: 0px;
+                left: opx;
+
+            }
+            25%{
+                top: 250px;
+                left: 0px;
+
+            }
+            50%{
+                top: 250px;
+                left: 250px;
+
+            }
+            100%{
+                top: 0px;
+                left: 250px;
+
+            }
+        }
+
+        @keyframes shivam {
+            from{
+                width: 200px;
+            }
+            to{
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <!-- This is a box -->
+            <h5>CHALTE RAHNA HI JINDAGI HAI</h5>
+        </div>
+    </div>
+</body>
+</html>
