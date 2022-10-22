@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	int X[3][4]={{1,2,3,4},{2,4,6,8},{3,6,9,12}};
+	int *Y[3];
+		int **Z;
+		for(int i=0;i<3;i++)//for the rows 
+		{ for(int j=0;j<4;j++)//for the columns
+		printf("%d\t",X[i][j]);
+		printf("\n");
+		}
+	
+	int i,j;
+	Y[0]=(int *)malloc(4*sizeof(int));
+		Y[1]=(int *)malloc(4*sizeof(int));
+			Y[2]=(int *)malloc(4*sizeof(int));
+	
+	
+	Z=(int **)malloc(3*sizeof(int *));
+	Z[0]=(int *)malloc(4*sizeof(int));
+	Z[1]=(int *)malloc(4*sizeof(int));
+	Z[2]=(int *)malloc(4*sizeof(int));
+	
+	 return 0;
+}
