@@ -1,0 +1,33 @@
+#include<iostream>
+using namespace std;
+
+class base
+{
+	public:
+		void fun1()
+		{
+			cout<<"FUN1 FROM BASE"<<endl;
+		}
+		virtual void fun2()
+		{
+		cout<<"FUN2 FROM BASE"<<endl;
+		
+				}
+		};
+		class derived:public base
+		{
+			public:
+				void fun2()//this base class is having two1.
+				// 1.reusility of child class and other one is achieving polymorphism
+				{
+					cout<<"fun2 of derived class"<<endl;
+					
+				}
+			
+		};
+		int main()
+		{
+			derived d;
+		d.fun1();
+		d.fun2();
+}
