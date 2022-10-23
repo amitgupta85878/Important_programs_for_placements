@@ -1,5 +1,6 @@
 
 Object Oriented Programming In Java Questions And Answers
+
 1. What is OOPs? 
 OOPs stands for Object-Oriented Programming system. It is a 
 programming paradigm in which software design involves 
@@ -69,6 +70,7 @@ class classname [extends inheritance]
  [field declararion] 
  [method declaration] 
 } 
+
 6.What is an object? 
 An object is a real world entity which have properties and 
 functionalities. 
