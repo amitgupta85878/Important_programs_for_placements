@@ -6,11 +6,6 @@ cout<<"enter the first number"<<endl;
 cin>>a;
 cout<<"enter the second number"<<endl;
 cin>>b;
-
-
-
-
-
 cout<<"a+b"<<a+b<<endl;
 cout<<"a-b"<<a-b<<endl;
 cout<<"a*b"<<a*b<<endl;
