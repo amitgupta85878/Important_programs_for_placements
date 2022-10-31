@@ -1,0 +1,15 @@
+class Solution {
+public:
+    vector<int> findDuplicates(vector<int>& nums) { 
+
+    vector<int> duc;
+    int num=0,size=nums.size();
+    for(int i=0;i<size;i++){
+        num=num^nums[i];
+        if(num!=0){
+            duc.push_back(nums[i]);
+        }
+     }
+    return duc;
+}
+};
