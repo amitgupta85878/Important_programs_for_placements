@@ -1,0 +1,38 @@
+STEP BY STEP TO YOUR GOAL TO COMPUTER NETWORKS
+
+1. Basic Concepts 
+    a. Fundamenatls
+    b. Topologies
+    c. OSI Model
+2. IPV4 Addressing 
+    a.Classful Addressing
+    b. Class NID and HID 
+    c.Private IP Addresses
+    d.Public IP Addresses
+    e.Ping , DHCP Client Addresses
+    f.Subnetting and Supernetting
+3. Data Link Layer 
+    a.Flow Control Policies 
+    b.Error Control Policies
+    c.Framing
+4. MAC Sublayer
+   a.Pure Aloha 
+   b.Slotted Aloha
+   c.CSMA/CD
+5. Network Layer
+   a.Network Layer Protocols
+   b.Routing Algorithms
+6. Internetworking
+   a.IP Header
+   b.IPv6
+   c.Network Devices
+7. Transport Layer
+   a.TCP Timers
+   b.Congestion Policies
+   c.Application Layer Protocols
+8. Network Security
+   a.Asymmetric key
+   b.Diffie Hellman
+   c.RSA 
+   d.Digital Signature 
+
