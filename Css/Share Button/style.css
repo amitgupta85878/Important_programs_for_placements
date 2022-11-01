@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ff897f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-container{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-btn{
+    font-size: 25px;
+    color: #ff897f;   
+}
+
+.share{
+    width: 230px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 20px 0 20px 0;
+    padding: 10px;
+    backdrop-filter: blur(3px);
+}
+
+.content{
+    color: #fff;
+    font-size: 20px;
+}
+
+hr{
+    color: #fff;
+    width: 35%;
+    margin-bottom: 8px;
+}
+
+.share-icons{
+    padding: 5px;
+}
+
+
+.share-icon{
+    display: inline-block;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.orange{
+    background-color: #ffa74e;
+    color: rgb(247, 247, 9);
+}
+
+.green{
+    background-color: #12bb5d;
+    color: #fff;
+}
+
+.red{
+    color: #fff;
+    background-color: #f85160;
+}
+
+.blue{
+    color: #fff;
+    background-color: #0f9afd;
+}
+
+.f-blue{
+    background-color: #0e75fd;
+    color: #fff;
+}
+
+.l-blue{
+    background-color: #0061cc;
+    color: #fff;
+}
+
+.link-container{
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links{
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+.copy-container{
+    width: 30%;
+    height: 100%;
+    background-color: #000;
+    color: #fff;
+}
