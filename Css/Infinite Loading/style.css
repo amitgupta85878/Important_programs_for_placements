@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(26 77 90);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrolling {
+  width: 70%;
+  height: 10%;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.scrolling-strip {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    45deg,
+    rgb(13, 212, 219),
+    rgb(159, 235, 19),
+    rgb(219, 37, 13)
+  );
+  border-radius: 50px;
+  animation: load 2.5s linear infinite;
+}
+
+@keyframes load {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
